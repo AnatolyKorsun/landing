@@ -1,57 +1,49 @@
+/* @import "normalize"; */
 * {
-  color: #ff0;
-  background-color: black;
   margin: 0;
 }
 .header {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
-  /* background-color: black; */
-  /* height: 90px; */
 }
-
-.name {
-  /* background-color: red; */
-  /* height: 50px; */
-  /* width: 50px; */
+.name{
+  font-family: 'Indie Flower', cursive;
+}
+.position{
+  font-family: 'Indie Flower', cursive;
+}
+.navi{
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 .navi {
     display: flex;
     align-items: center;
-  /* text-decoration: none; */
-
   /* background-color:green; */
   /* padding-top: 20px; */
   /* height: 50px; */
   /* width: 50px; */
 }
-.navi a:hover {
+.navi ol:hover {
   color: red;
-  /* padding: 10px; */
-  border: 2px solid #fff;
-  border-radius: 3.125rem;
 }
 
 
-.main{
-  height: 100vh;
-  /* background-image: url(/src/images/RSCN6601.JPG); */
-  /* background-size: cover;
+/* .main{
+  /* height: 100vh; */
+  background-image: url(/src/images/web-design.jpg);
+  /* background-color: red; */
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
   /* opacity: 0.4; */
-  background-color: black;     
-}
-.career{
-    height: 100vh;
-    background-color: white;
-}
-.skils{
+  /* background-color: black;      */
+ 
+/* .skils{
     height: 100vh;
     background-color: black;
 }
 .education{
     height: 100vh;
     background-color: white;
-}
+} */
