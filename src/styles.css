@@ -42,20 +42,23 @@ body{
   background-position: center;
   opacity: 0.6;
   padding: 100px 50px;
+  margin-bottom: 100px;
 }
 
 
 
 
 .career{
-  display: flex;
-  flex-direction: row;
-  height: 700px;
+
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content:space-around; */
+  /* height: 700px; */
 }
 
-h2{
+/* h2{
   display:inline-block;
-}
+} */
 
 .career img{
   height: 500px;
@@ -69,39 +72,53 @@ h2{
   justify-content: space-around;
   height: 500px;
   width: 500px;
-  /* background-color: white; */
+  background-color: white;
 }
-.position{
-  /* height: 50px; */
-  /* background: #666659; */
-}
-.commerce{
-/* width: 20px; */
-/* height: 20px; */
-/* background-image: url(/src/images/books-stack-of-three.svg); */
-/* color:red; */
-}
+
 
 .position {
   /* background-color: #fff; */
   display: flex;
+  /* display: inline-block; */
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* width: 16.875rem; */
   /* height: 13.06rem;} */
 }
 
   .position img {
-    display: inline-block;
+    /* display: inline-block; */
     height: 50px;
     width: 50px;
-    background-color:white;
+    background-color:orange;
     /* border-radius: 50%; */
     /* border: 0.187rem solid rgb(254, 209, 54); */
     /* background-image: url(/src/images/books-stack-of-three.svg); */
 }
-.commerce {
-  /* width: 200px; */
-  /* height: 300px; */
+
+
+
+
+
+
+
+.block {
+  position: relative;
+  width: 900px;
+  height: 900px;
+  background-color: #fff;
+} 
+.big{
+  width: 400px;
+  height: 900px;
+  background-color: orange;
+}
+.litle {
+  position: absolute;
+  left: 280px;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
 }
