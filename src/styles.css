@@ -1,9 +1,22 @@
 /* @import "normalize"; */
+body{
+  min-width: 1200px; 
+/* margin: auto; */
+}
 * {
+  background-color: black;
+  color:white;
+  /* background-color: black; */
   margin: 0;
+  /* width: 1200px; */
+}
+body{
+  width: 1200px;
+  margin: auto;
 }
 .header {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
 }
@@ -14,36 +27,81 @@
   font-family: 'Indie Flower', cursive;
 }
 .navi{
+  display: flex;
   font-family: 'ZCOOL XiaoWei', serif;
+  align-items: center;
 }
-.navi {
-    display: flex;
-    align-items: center;
-  /* background-color:green; */
-  /* padding-top: 20px; */
-  /* height: 50px; */
-  /* width: 50px; */
+.menu-item:hover{
+  cursor: pointer;
 }
-.navi ol:hover {
-  color: red;
-}
-
-
-/* .main{
-  /* height: 100vh; */
-  background-image: url(/src/images/web-design.jpg);
-  /* background-color: red; */
-  background-size: cover;
+.main{
+  height: 600px;
+  background-image: url(/src/images/adult-2449725_1920.jpg);
+  background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* opacity: 0.4; */
-  /* background-color: black;      */
- 
-/* .skils{
-    height: 100vh;
-    background-color: black;
+  opacity: 0.6;
+  padding: 100px 50px;
 }
+
+
+
+
+.career{
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+}
+
+h2{
+  display:inline-block;
+}
+
+.career img{
+  height: 500px;
+  width: 500px;
+}
+
 .education{
-    height: 100vh;
-    background-color: white;
-} */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
+  width: 500px;
+  /* background-color: white; */
+}
+.position{
+  /* height: 50px; */
+  /* background: #666659; */
+}
+.commerce{
+/* width: 20px; */
+/* height: 20px; */
+/* background-image: url(/src/images/books-stack-of-three.svg); */
+/* color:red; */
+}
+
+.position {
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 16.875rem; */
+  /* height: 13.06rem;} */
+}
+
+  .position img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    /* border-radius: 50%; */
+    /* border: 0.187rem solid rgb(254, 209, 54); */
+    /* background-image: url(/src/images/books-stack-of-three.svg); */
+}
+.commerce {
+  /* width: 200px; */
+  /* height: 300px; */
+}
