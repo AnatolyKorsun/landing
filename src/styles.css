@@ -92,15 +92,18 @@ body {
 .skils{
   position: relative;
   height: 800px;
-  background-color: white;
+  padding: 50px 50px;
+  /* background-color: white; */
 }
 
 .skils{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
+ .container{ 
+   margin-left:50px;
+} 
 .logo{
   width: 150px;
   height: 150px;
