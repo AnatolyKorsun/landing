@@ -3,12 +3,9 @@ body {
   min-width: 1200px;
   background-color: black;
   color: white;
-  /* margin: auto; */
 }
 * {
-  /* background-color: black; */
   margin: 0;
-  /* width: 1200px; */
 }
 body {
   width: 1200px;
@@ -52,7 +49,7 @@ body {
 .title {
   position: absolute;
   font-size: 70px;
-  color:grey;
+  color: grey;
   text-transform: uppercase;
   opacity: 0.6;
   left: 0;
@@ -64,7 +61,7 @@ body {
   width: 500px;
 }
 
-.education {
+.post {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -89,44 +86,67 @@ body {
   background-color: orange;
 }
 
-.skils{
+.skils {
   position: relative;
   height: 800px;
   padding: 50px 50px;
   /* background-color: white; */
-}
-
-.skils{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
- .container{ 
-   margin-left:50px;
-} 
-.logo{
+
+.container {
+  margin-left: 50px;
+}
+
+.logo {
   width: 150px;
   height: 150px;
   background-color: red;
 }
-.bolle{
-  display:flex;
-  width:150px;
-  
+
+.bolle {
+  display: flex;
+  width: 150px;
 }
-.empty-dots{
-  background-color:#c5e4f2;
+
+.empty-dots {
+  background-color: #c5e4f2;
   transparency: 0.2;
-  width:30px;
-  height:30px;
-  margin:1px;
-  border-radius:50%;
-  
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  border-radius: 50%;
 }
+
 .dots {
-  background-color:#83D8FF;
-  width:30px;
-  height:30px;
-  margin:1px;
-  border-radius:50%;
+  background-color: #83d8ff;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  border-radius: 50%;
 }
+
+.education {
+  position: relative;
+  height: 800px;
+  background-color: white;
+  color:grey;
+  padding-top: 50px;
+}
+.stage{
+  font-size: 40px;
+  text-align: center;
+}
+.stage-item {
+  display: inline-block;
+  background-color: black;
+  vertical-align: top;
+}
+.portfolio {
+  position: relative;
+  height: 800px;
+  background-color: red;
+}
+
