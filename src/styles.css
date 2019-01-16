@@ -148,15 +148,16 @@ body {
   background-color: black;
   vertical-align: top;
 }
+
 .portfolio {
   position: relative;
-  width:1350px; 
+  width:1250px; 
   margin: auto;
-  height: 800px;
-  background-color: red;
+  height: 1200px;
+  /* background-color: red; */
 }
 
-fullview img{
+.fullview img{
   width: 100%;
   height: auto;
   }
@@ -169,3 +170,10 @@ fullview img{
     border: solid 2ps #808080;
   }
   
+  .contact{
+  position: relative;
+  width:1250px; 
+  margin: auto;
+  height: 800px;
+  /* background-color: red; */
+  }
