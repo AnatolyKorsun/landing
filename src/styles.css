@@ -104,6 +104,10 @@ body {
   width: 150px;
   height: 150px;
   background-color: red;
+  background-image: url(/src/images/adult-2449725_1920.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bolle {
@@ -146,6 +150,22 @@ body {
 }
 .portfolio {
   position: relative;
+  width:1350px; 
+  margin: auto;
   height: 800px;
   background-color: red;
 }
+
+fullview img{
+  width: 100%;
+  height: auto;
+  }
+  
+  .preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 1 2%;
+    border: solid 2ps #808080;
+  }
+  
