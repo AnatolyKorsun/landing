@@ -117,7 +117,7 @@ body {
 
 .empty-dots {
   background-color: #c5e4f2;
-  transparency: 0.2;
+  opacity:  0.4;
   width: 30px;
   height: 30px;
   margin: 1px;
@@ -176,4 +176,23 @@ body {
   margin: auto;
   height: 800px;
   /* background-color: red; */
+  }
+.contact-item{
+  text-align: center;
+}
+  .phone-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    background-image: url(/src/images/graduate-certificate.svg );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .phone-contact{
+    display: inline-block;
+    font-size: 35px;
+    height: 50px;
   }
