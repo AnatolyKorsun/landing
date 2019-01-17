@@ -1,5 +1,4 @@
 "use strict";
-console.log('wha');
 const galleryItems = [
   {
     preview: "/src/images/preview-1.jpeg",
