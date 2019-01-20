@@ -41,6 +41,9 @@ body {
   padding: 100px 50px;
   margin-bottom: 100px;
 }
+.main p{
+  width: 300px;
+}
 
 .career {
   position: relative;
@@ -171,20 +174,19 @@ body {
   }
   
   .contact{
-  padding: 50px;
+  padding: 150px;
   position: relative;
-  width:550px; 
+  widows: 950px; 
   margin: auto;
   height: 400px;
-  /* text-align: center; */
-  background-color: white;
+  /* background-color: white; */
   }
 
 .contact-item{
   display: flex;
   /* justify-content: space-around; */
   /* align-items: center; */
-  background-color: red;
+  /* background-color: red; */
   margin-bottom: 25px;
   
 }
@@ -202,3 +204,37 @@ body {
   .phone-contact, .mail-contact{
     font-size: 35px;
   }
+  
+.social-link{
+  display: flex;
+}
+.social-link a{
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.social-link a:last-child{
+  margin-right: 0;
+}
+.link-twitter{
+  background-image: url('https://png.icons8.com/ios/2x/twitter.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.link-facebook{
+  background-image: url('https://image.flaticon.com/icons/png/128/160/160154.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.link-google{
+  background-image: url('https://image.flaticon.com/icons/svg/134/134033.svg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
