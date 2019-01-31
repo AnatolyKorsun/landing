@@ -146,7 +146,7 @@ margin-bottom: 50px;
 /*---------------------------------------------- skils */
 .skils{
   position: relative;
-  padding: 150px 50px;
+  padding: 100px 50px;
 }
 
 .caption{
@@ -177,6 +177,10 @@ margin-bottom: 50px;
 }
 .container {
   /* margin-left: 50px; */
+}
+
+.caption{
+  margin-bottom: 20px;
 }
 .logo{
   width: 160px;
@@ -228,27 +232,35 @@ margin-bottom: 50px;
   background-image: url(/src/images/nodejs.svg);
 }
 
-.bolle {
+.progress {
   display: flex;
   width: 150px;
 }
 
-.empty-dots {
-  background-color: #c5e4f2;
-  opacity:  0.4;
+.empty-star {
+  /* background-color: #c5e4f2; */
+  /* opacity:  0.4; */
   width: 30px;
   height: 30px;
   margin: 1px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  background-image: url(/src/images/empty-star.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.dots {
-  /* background-image: url(/src/images/star.svg); */
-  background-color: #83d8ff;
+.star {
+  background-image: url(/src/images/star.svg);
+  /* background-color: #83d8ff; */
   width: 30px;
   height: 30px;
   margin: 1px;
-  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border-radius: 50%; */
 }
 
 
