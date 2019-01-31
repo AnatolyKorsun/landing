@@ -148,6 +148,12 @@ margin-bottom: 50px;
   position: relative;
   padding: 150px 50px;
 }
+
+.caption{
+  font-size: 40px;
+  color: grey;
+  text-transform: uppercase;
+}
 /* .soft-skils{
   width: 800px;
   height: 50px; 
@@ -157,25 +163,50 @@ margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.signature{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
 .container {
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .logo{
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   background-color: black;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 16px;
 
 }
 .logo-team{
-  background-color: white;
-  background-image: url(/src/images/communication.svg);
-
+  background-image: url(/src/images/teamwork.svg);
 }
+.logo-personal{
+  background-image: url(/src/images/achievement.svg);
+}
+.logo-management{
+  background-image: url(/src/images/watch.svg);
+}
+.logo-communication{
+  background-image: url(/src/images/dance.svg);
+} 
+.logo-agile{
+  background-image: url(/src/images/group.svg);
+}
+.logo-experience{
+  background-image: url(/src/images/avatar.svg);
+}
+
 .logo-html{
   background-image: url(/src/images/html5.svg);
 }
@@ -212,6 +243,7 @@ margin-bottom: 50px;
 }
 
 .dots {
+  /* background-image: url(/src/images/star.svg); */
   background-color: #83d8ff;
   width: 30px;
   height: 30px;
