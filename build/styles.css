@@ -14,6 +14,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: nowrap;
   justify-content: space-around;
 }
@@ -154,11 +155,7 @@ margin-bottom: 50px;
   color: grey;
   text-transform: uppercase;
 }
-/* .soft-skils{
-  width: 800px;
-  height: 50px; 
-  margin-left: auto;
-} */
+
 .tehnical-skils, .soft-skils{
   display: flex;
   flex-direction: row;
@@ -167,16 +164,10 @@ margin-bottom: 50px;
 }
 
 .signature{
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   width: 150px;
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
-
-}
-.container {
-  /* margin-left: 50px; */
 }
 
 .caption{
@@ -190,8 +181,8 @@ margin-bottom: 50px;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 16px;
-
 }
+
 .logo-team{
   background-image: url(/src/images/teamwork.svg);
 }
@@ -223,29 +214,21 @@ margin-bottom: 50px;
 .logo-photoshop{
   background-image: url(/src/images/photoshop.svg);
 }
-
 .logo-git{
   background-image: url(/src/images/git-logo.svg);
 }
-
 .logo-nodejs{
   background-image: url(/src/images/nodejs.svg);
 }
-
 .progress {
   display: flex;
   width: 150px;
 }
-
 .empty-star {
-  /* background-color: #c5e4f2; */
-  /* opacity:  0.4; */
   width: 30px;
   height: 30px;
   margin: 1px;
-  /* border-radius: 50%; */
   background-image: url(/src/images/empty-star.svg);
-
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,28 +236,20 @@ margin-bottom: 50px;
 
 .star {
   background-image: url(/src/images/star.svg);
-  /* background-color: #83d8ff; */
   width: 30px;
   height: 30px;
   margin: 1px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* border-radius: 50%; */
 }
 
-
-
-
-
-
-
+/* ----------------------------------------------portfolio */
 .portfolio {
   position: relative;
   width:1250px; 
   margin: auto;
   height: 1200px;
-  /* background-color: red; */
 }
 
 .fullview img{
@@ -284,28 +259,104 @@ margin-bottom: 50px;
   
   .preview {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex: 1 1 2%;
-    border: solid 2ps #808080;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex: 1 1 10%;
+    /* border: solid 2ps #808080; */
+    list-style-type: none;
+    padding: 0;
+    
   }
+
+  .btn {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 0;
+    /* background-image: url(/src/images/previous.svg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: none; */
+    /* border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 74px;
+    text-transform: uppercase;
+    line-height: 42px;
+    cursor: pointer;
+    font-family: inherit; */
+  }
+
+  .btn--prev {
+    background-image: url(/src/images/previous.svg);
+  }
+
+  .btn--next{
+    background-image: url(/src/images/next.svg);
+  }
+
+  /* .btn { */
+    /* border: none;
+    font-family: inherit;
+    outline: none;
+    cursor: pointer; */
+  /* } */
+/* 
+  .btn--tool {
+    padding: 0;
+    align-self: stretch;
+    background-color: transparent;
+    color: $color-alt;
   
+    &:hover {
+      text-shadow: 0 0 2px $color-alt;
+      background-color: darken($color-tool, 10%);
+    }
+  } */
+  /* .btn--prev {
+  
+    transform: rotate(90deg);
+     align-self: center;
+     padding: 0;
+     flex-basis: 100%;
+     padding-left: 1px;
+    line-height: 0.8;
+    width: 20px;
+    font-size: 20px;
+  } */
+  
+  /* .btn--next {
+    transform: rotate(-90deg);
+     align-self: center;
+     flex-basis: 100%;
+     padding-right: 1px;
+    line-height: 0.8;
+    width: 20px;
+    font-size: 20px;
+  } */
+  /* .btn--next:hover {
+    color: #cddc39;
+    font-size: 1.8rem;
+  }
+  .btn--prev:hover {
+    color: #cddc39;
+    font-size: 1.8rem;
+  } */
+  
+  /* --------------------------------------------contact */
   .contact{
   padding: 150px;
   position: relative;
   widows: 950px; 
   margin: auto;
   height: 400px;
-  /* background-color: white; */
   }
 
 .contact-item{
   display: flex;
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* background-color: red; */
   margin-bottom: 25px;
-  
 }
   .phone-icon, .mail-icon{
     display: inline-block;
