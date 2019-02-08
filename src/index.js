@@ -47,25 +47,26 @@ const galleryItems = [
   },
 ];
 
-let galeryItem = [0,1,2,3];
+let galeryItem = [3,4,5,6];
 
 const moveForvard = () =>{
 galeryItem.forEach(function(el,ind,arr){
-arr[ind] = el + 1;
-});
+arr[ind] = el + 1;});
+create();
 }
 
 const moveBack = () =>{
   galeryItem.forEach(function(el,ind,arr){
     arr[ind] = el - 1;
     });
+create();
 }
 
-console.log(galeryItem);
-moveForvard();
-console.log(galeryItem);
-moveBack();
-console.log(galeryItem);
+// console.log(galeryItem);
+// moveForvard();
+// console.log(galeryItem);
+// moveBack();
+// console.log(galeryItem);
 
 
 
@@ -81,15 +82,29 @@ function createCard(galleryItems) {
     </li>`;
 };
 
-function createGallery(galleryItem) {
-  const result =
-    `<ul class="preview js-preview">
-    <button class="btn btn--tool btn--prev js-prev">&#9013;</button>` +
-    galleryItem.reduce((acc, obj) => acc + createCard(obj), "") +
-    `<button class="btn btn--tool btn--next js-next">&#9013;</button>
-    </ul>`;
+
+function createGallery(){
+  const result = `<ul class="preview js-preview">
+  <button class="btn btn--tool btn--prev js-prev">&#9013;</button>` +
+  galeryItem.reduce((acc,el) => acc + createCard(galleryItems[el]), "")+
+  `<button class="btn btn--tool btn--next js-next">&#9013;</button>
+  </ul>`;
+  console.log(result);
   return result;
-};
+}
+
+
+
+// function createGallery(galleryItems) {
+//   const result =
+//     `<ul class="preview js-preview">
+//     <button class="btn btn--tool btn--prev js-prev">&#9013;</button>` +
+//     galleryItems.reduce((acc, obj) =>
+//      acc + createCard(obj), "") +
+//     `<button class="btn btn--tool btn--next js-next">&#9013;</button>
+//     </ul>`;
+//   return result;
+// };
 
 let dataFullview = galleryItems[1].fullview
 
@@ -99,6 +114,12 @@ function create() {
 
   const gallery = document.querySelector(".preview");
   gallery.addEventListener("click", onGalleryClick);
+
+  const preview = document.querySelector(".js-prev");
+  preview.addEventListener("click",moveBack);
+
+  const next = document.querySelector(".js-next");
+  next.addEventListener("click",moveForvard);
 };
 
 function onGalleryClick(event) {
