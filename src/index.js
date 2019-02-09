@@ -46,8 +46,19 @@ const galleryItems = [
     alt: "alt text 9"
   },
 ];
+let galeryItem = [0,1,2,3];
 
-let galeryItem = [3,4,5,6];
+
+const hideButton = () =>{
+  const buttonForvard = document.querySelector(".btn--next");
+  const buttonBack = document.querySelector(".btn--prev");
+  if(galeryItem[galeryItem.length-1] === Number(galleryItems.length-1)){
+    buttonForvard.style.visibility = "hidden";
+  };
+  if(galeryItem[0] === 0){
+    buttonBack.style.visibility = "hidden";
+  };
+}
 
 const moveForvard = () =>{
 galeryItem.forEach(function(el,ind,arr){
@@ -62,14 +73,6 @@ const moveBack = () =>{
 create();
 }
 
-// console.log(galeryItem);
-// moveForvard();
-// console.log(galeryItem);
-// moveBack();
-// console.log(galeryItem);
-
-
-
 function createFullviewImage(dataFullview) {
   return `<div class="fullview">
       <img src="${dataFullview}" alt="alt text 1"></div>`;
@@ -82,31 +85,16 @@ function createCard(galleryItems) {
     </li>`;
 };
 
-
 function createGallery(){
   const result = `<ul class="preview js-preview">
-  <button class="btn btn--tool btn--prev js-prev">&#9013;</button>` +
+  <div class="btn btn--tool btn--prev js-prev"></div>`+
   galeryItem.reduce((acc,el) => acc + createCard(galleryItems[el]), "")+
-  `<button class="btn btn--tool btn--next js-next">&#9013;</button>
+  `<div class="btn btn--tool btn--next js-next"></div>
   </ul>`;
-  console.log(result);
   return result;
 }
 
-
-
-// function createGallery(galleryItems) {
-//   const result =
-//     `<ul class="preview js-preview">
-//     <button class="btn btn--tool btn--prev js-prev">&#9013;</button>` +
-//     galleryItems.reduce((acc, obj) =>
-//      acc + createCard(obj), "") +
-//     `<button class="btn btn--tool btn--next js-next">&#9013;</button>
-//     </ul>`;
-//   return result;
-// };
-
-let dataFullview = galleryItems[1].fullview
+let dataFullview = galleryItems[0].fullview
 
 function create() {
   const list = document.querySelector(".js-image-gallery");
@@ -115,9 +103,11 @@ function create() {
   const gallery = document.querySelector(".preview");
   gallery.addEventListener("click", onGalleryClick);
 
+  hideButton();
+ 
   const preview = document.querySelector(".js-prev");
   preview.addEventListener("click",moveBack);
-
+  
   const next = document.querySelector(".js-next");
   next.addEventListener("click",moveForvard);
 };
