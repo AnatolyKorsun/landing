@@ -1,23 +1,23 @@
 "use strict";
 const galleryItems = [
   {
-    preview: "/src/images/preview-1.jpeg",
-    fullview: "/src/images/fullview-1.jpeg",
+    preview: "/src/images/preview-1.jpg",
+    fullview: "/src/images/fullview-1.jpg",
     alt: "alt text 1"
   },
   {
-    preview: "/src/images/preview-2.jpeg",
-    fullview: "/src/images/fullview-2.jpeg",
+    preview: "/src/images/preview-2.jpg",
+    fullview: "/src/images/fullview-2.jpg",
     alt: "alt text 2"
   },
   {
-    preview: "/src/images/preview-3.jpeg",
-    fullview: "/src/images/fullview-3.jpeg",
+    preview: "/src/images/preview-3.jpg",
+    fullview: "/src/images/fullview-3.jpg",
     alt: "alt text 3"
   },
   {
-    preview: "/src/images/preview-4.jpeg",
-    fullview: "/src/images/fullview-4.jpeg",
+    preview: "/src/images/preview-4.jpg",
+    fullview: "/src/images/fullview-4.jpg",
     alt: "alt text 4"
   },
   {
@@ -42,7 +42,7 @@ const galleryItems = [
   },
   {
     preview: "/src/images/preview-9.jpeg",
-    fullview: "/src/src/images/fullview-9.jpeg",
+    fullview: "/src/images/fullview-9.jpeg",
     alt: "alt text 9"
   },
 ];

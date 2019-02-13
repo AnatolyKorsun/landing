@@ -254,7 +254,7 @@ margin-bottom: 50px;
 
 .fullview img{
   width: 100%;
-  height: auto;
+  height:auto;
   }
   
   .preview {
@@ -262,8 +262,6 @@ margin-bottom: 50px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    flex: 1 1 10%;
-    /* border: solid 2ps #808080; */
     list-style-type: none;
     padding: 0;
     
@@ -286,65 +284,15 @@ margin-bottom: 50px;
   }
 
   .btn--prev {
-    /* top:40px; */
     left: 0;
     background-image: url(/src/images/previous.svg);
   }
 
   .btn--next{
-    /* top:40px; */
     right: 0;
     background-image: url(/src/images/next.svg);
   }
 
-  /* .btn { */
-    /* border: none;
-    font-family: inherit;
-    outline: none;
-    cursor: pointer; */
-  /* } */
-/* 
-  .btn--tool {
-    padding: 0;
-    align-self: stretch;
-    background-color: transparent;
-    color: $color-alt;
-  
-    &:hover {
-      text-shadow: 0 0 2px $color-alt;
-      background-color: darken($color-tool, 10%);
-    }
-  } */
-  /* .btn--prev {
-  
-    transform: rotate(90deg);
-     align-self: center;
-     padding: 0;
-     flex-basis: 100%;
-     padding-left: 1px;
-    line-height: 0.8;
-    width: 20px;
-    font-size: 20px;
-  } */
-  
-  /* .btn--next {
-    transform: rotate(-90deg);
-     align-self: center;
-     flex-basis: 100%;
-     padding-right: 1px;
-    line-height: 0.8;
-    width: 20px;
-    font-size: 20px;
-  } */
-  /* .btn--next:hover {
-    color: #cddc39;
-    font-size: 1.8rem;
-  }
-  .btn--prev:hover {
-    color: #cddc39;
-    font-size: 1.8rem;
-  } */
-  
   /* --------------------------------------------contact */
   .contact{
   padding: 150px;
