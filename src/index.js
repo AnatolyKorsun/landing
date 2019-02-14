@@ -1,4 +1,5 @@
 "use strict";
+import "./styles.css";
 const galleryItems = [
   {
     preview: "/src/images/preview-1.jpg",
