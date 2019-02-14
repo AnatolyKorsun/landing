@@ -8,43 +8,89 @@ const galleryItems = [
   {
     preview: "/src/images/preview-2.jpg",
     fullview: "/src/images/fullview-2.jpg",
-    alt: "alt text 2"
+    alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-3.jpg",
     fullview: "/src/images/fullview-3.jpg",
-    alt: "alt text 3"
+    alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-4.jpg",
     fullview: "/src/images/fullview-4.jpg",
-    alt: "alt text 4"
+    alt: "alt text 1"
   },
   {
-    preview: "/src/images/preview-5.jpeg",
-    fullview: "/src/images/fullview-5.jpeg",
-    alt: "alt text 5"
+    preview: "/src/images/preview-5.jpg",
+    fullview: "/src/images/fullview-5.jpg",
+    alt: "alt text 1"
   },
   {
-    preview: "/src/images/preview-6.jpeg",
-    fullview: "/src/images/fullview-6.jpeg",
-    alt: "alt text 6"
+    preview: "/src/images/preview-6.jpg",
+    fullview: "/src/images/fullview-6.jpg",
+    alt: "alt text 1"
   },
   {
-    preview: "/src/images/preview-7.jpeg",
-    fullview: "/src/images/fullview-7.jpeg",
-    alt: "alt text 7"
+    preview: "/src/images/preview-7.jpg",
+    fullview: "/src/images/fullview-7.jpg",
+    alt: "alt text 1"
   },
   {
-    preview: "/src/images/preview-8.jpeg",
-    fullview: "/src/images/fullview-8.jpeg",
-    alt: "alt text 8"
+    preview: "/src/images/preview-8.jpg",
+    fullview: "/src/images/fullview-8.jpg",
+    alt: "alt text 1"
   },
   {
-    preview: "/src/images/preview-9.jpeg",
-    fullview: "/src/images/fullview-9.jpeg",
-    alt: "alt text 9"
+    preview: "/src/images/preview-9.jpg",
+    fullview: "/src/images/fullview-9.jpg",
+    alt: "alt text 1"
   },
+  {
+    preview: "/src/images/preview-10.jpg",
+    fullview: "/src/images/fullview-10.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-11.jpg",
+    fullview: "/src/images/fullview-11.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-12.jpg",
+    fullview: "/src/images/fullview-12.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-13.jpg",
+    fullview: "/src/images/fullview-13.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-14.jpg",
+    fullview: "/src/images/fullview-14.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-15.jpg",
+    fullview: "/src/images/fullview-15.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-16.jpg",
+    fullview: "/src/images/fullview-16.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-17.jpg",
+    fullview: "/src/images/fullview-17.jpg",
+    alt: "alt text 1"
+  },
+  {
+    preview: "/src/images/preview-18.jpg",
+    fullview: "/src/images/fullview-18.jpg",
+    alt: "alt text 1"
+  },
+  
 ];
 let galeryItem = [0,1,2,3];
 
@@ -52,6 +98,9 @@ let galeryItem = [0,1,2,3];
 const hideButton = () =>{
   const buttonForvard = document.querySelector(".btn--next");
   const buttonBack = document.querySelector(".btn--prev");
+  console.log(galeryItem[galeryItem.length-1]);
+  console.log(Number(galleryItems.length-1));
+  console.log(galeryItem[galeryItem.length-1] === Number(galleryItems.length-1))
   if(galeryItem[galeryItem.length-1] === Number(galleryItems.length-1)){
     buttonForvard.style.visibility = "hidden";
   };
