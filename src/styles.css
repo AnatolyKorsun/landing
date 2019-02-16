@@ -256,7 +256,9 @@ margin-bottom: 50px;
   width: 100%;
   height:auto;
   }
-  
+  .fullview:hover{
+    cursor: pointer;
+  }
   .preview {
     position: relative;
     display: flex;
@@ -270,10 +272,11 @@ margin-bottom: 50px;
   .btn {
     position: absolute;
     width: 50px;
-    height: 170px;
-    
+    height: 150px;
+    /* background-color: black; */
+    border-radius: 90%;
     /* border-radius: 50%; */
-    opacity: 0.5;
+    /* opacity: s0.5; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -281,16 +284,20 @@ margin-bottom: 50px;
   }
   .btn:hover{
     opacity: 1;
+    width:70px;
+    height: 150px;
   }
 
   .btn--prev {
     left: 0;
-    background-image: url(/src/images/previous.svg);
+    background-image: url(/src/images/right-arrow.svg);
+   transform: rotate(180deg); 
   }
+
 
   .btn--next{
     right: 0;
-    background-image: url(/src/images/next.svg);
+    background-image: url(/src/images/right-arrow.svg);
   }
 
   /* --------------------------------------------contact */
