@@ -58,34 +58,37 @@ const galleryItems = [
   {
     preview: "/src/images/preview-10.jpg",
     fullview: "/src/images/fullview-10.jpg",
-    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/html-css/module-11/",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-07/",
     alt: "SASS,variables,Nesting,&,Data Types,Mixin"
   },
   {
     preview: "/src/images/preview-11.jpg",
     fullview: "/src/images/fullview-11.jpg",
-    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-07/",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-08/",
     alt: "DOM"
   },
   {
     preview: "/src/images/preview-12.jpg",
     fullview: "/src/images/fullview-12.jpg",
-    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-08/",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-09/",
     alt: "event,eventListener"
   },
   {
     preview: "/src/images/preview-13.jpg",
     fullview: "/src/images/fullview-13.jpg",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-10/",
     alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-14.jpg",
     fullview: "/src/images/fullview-14.jpg",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-11/",
     alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-15.jpg",
     fullview: "/src/images/fullview-15.jpg",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-12/",
     alt: "alt text 1"
   },
   {
