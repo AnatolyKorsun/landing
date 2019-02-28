@@ -29,9 +29,20 @@ body {
   font-family: "ZCOOL XiaoWei", serif;
   align-items: center;
 }
+.navi a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: #fff;
+}
 .menu-item:hover {
   cursor: pointer;
 }
+.tutu{
+  height: 50px;
+  width: 50px;
+  border: #fff 2px solid;
+}
+  
 .main {
   height: 600px;
   background-image: url(/src/images/adult-2449725_1920.jpg);
@@ -43,8 +54,11 @@ body {
   margin-bottom: 100px;
 }
 .main p{
-  font-size: 23px;
+  font-size: 25px;
   width: 350px;
+  background-color: black;
+  opacity: 0.5;
+  /* color: black; */
 }
 
 .career {
@@ -87,9 +101,16 @@ body {
 }
 
 .position img {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
+ vertical-align: middle;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
 }
 /* -----------------------------------------------education */
 .education {
@@ -249,7 +270,8 @@ margin-bottom: 50px;
   position: relative;
   width:1250px; 
   margin: auto;
-  height: 1200px;
+  margin-bottom: 100px;
+  /* height: 1200px; */
 }
 
 .fullview img{
@@ -266,17 +288,13 @@ margin-bottom: 50px;
     justify-content: center;
     list-style-type: none;
     padding: 0;
-    
   }
 
   .btn {
     position: absolute;
     width: 50px;
     height: 150px;
-    /* background-color: black; */
     border-radius: 90%;
-    /* border-radius: 50%; */
-    /* opacity: s0.5; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -301,9 +319,14 @@ margin-bottom: 50px;
   }
 
   /* --------------------------------------------contact */
+    
   .contact{
+    position: relative;
+    background-image: url(/src/images/map.jpg);
   padding: 150px;
-  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   widows: 950px; 
   margin: auto;
   height: 400px;
@@ -313,20 +336,58 @@ margin-bottom: 50px;
   display: flex;
   margin-bottom: 25px;
 }
+.icon{
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+}
+
+.icon-mail{
+  background-image: url(/src/images/icon-email.png);
+ }
+
+ .icon-phone{
+   background-image: url(/src/images/icon-phone.png);
+ }
+
+ .icon-skype{
+   background-image: url(/src/images/icon-skype.png);
+ }
+
+ .icon-locality{
+   background-image: url(/src/images/icon-locality.png);
+ }
+
+ .item-contact{
+  font-size: 35px;
+  line-height: 60px;
+  align-items: center;
+}
+
+
+
+
+
   .phone-icon, .mail-icon{
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color:white;
+    background-color:#fff;
     background-image: url(/src/images/graduate-certificate.svg );
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  .phone-contact, .mail-contact{
-    font-size: 35px;
-  }
+
   
 .social-link{
   display: flex;

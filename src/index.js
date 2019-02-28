@@ -88,22 +88,25 @@ const galleryItems = [
   {
     preview: "/src/images/preview-15.jpg",
     fullview: "/src/images/fullview-15.jpg",
-    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-12/",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/module-12/build/",
     alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-16.jpg",
     fullview: "/src/images/fullview-16.jpg",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/project/",
     alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-17.jpg",
     fullview: "/src/images/fullview-17.jpg",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/project/",
     alt: "alt text 1"
   },
   {
     preview: "/src/images/preview-18.jpg",
     fullview: "/src/images/fullview-18.jpg",
+    lowsrc:"https://anatolykorsun.github.io/goit-fe-course/js/project/",
     alt: "alt text 1"
   },
   
