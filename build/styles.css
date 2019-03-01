@@ -37,11 +37,11 @@ body {
 .menu-item:hover {
   cursor: pointer;
 }
-.tutu{
+/* .tutu{
   height: 50px;
   width: 50px;
   border: #fff 2px solid;
-}
+} */
   
 .main {
   height: 600px;
@@ -55,9 +55,14 @@ body {
 }
 .main p{
   font-size: 25px;
-  width: 350px;
-  background-color: black;
-  opacity: 0.5;
+  width: 400px;
+  color:#000;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+  /* background-color: black; */
+  /* opacity: 0.5; */
   /* color: black; */
 }
 
@@ -100,18 +105,35 @@ body {
   margin-left: 20px;
 }
 
-.position img {
+.position-icon {
  vertical-align: middle;
   background-color: #fff;
   height: 60px;
   width: 60px;
   margin-right: 25px;
   border-radius: 50%;
-  background-size: 20%;
   background-repeat: no-repeat;
   background-position: center;
-  background-position: center;
+  background-size: 80%;
 }
+ .icon-tools{
+  background-image: url(/src/images/icon-tool.png);
+} 
+.icon-helmet{
+  background-image: url(/src/images/icon-helmet.png);
+}
+.icon-pen{
+  background-image: url(/src/images/icon-pen.png);
+  background-size: 60%;
+
+}
+
+.icon-tie{
+  background-image: url(/src/images/icon-tie.png);
+}
+
+
+
 /* -----------------------------------------------education */
 .education {
   position: relative;
@@ -322,20 +344,23 @@ margin-bottom: 50px;
   /* --------------------------------------------contact */
     
   .contact{
-    position: relative;
-    background-image: url(/src/images/map.jpg);
-  padding: 150px;
+  position: relative;
+  background-image: url(/src/images/map.jpg);
+  padding-top: 120px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  widows: 950px; 
-  margin: auto;
+  /* widows: 950px;  */
+  /* margin: auto; */
   height: 400px;
-  }
+}
 
 .contact-item{
   display: flex;
   margin-bottom: 25px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icon{
   display: inline-block;
@@ -347,7 +372,6 @@ margin-bottom: 50px;
   border-radius: 50%;
   background-size: 60%;
   background-repeat: no-repeat;
-  background-position: center;
   background-position: center;
 }
 
@@ -372,28 +396,11 @@ margin-bottom: 50px;
   line-height: 60px;
   align-items: center;
 }
-
-
-
-
-
-  .phone-icon, .mail-icon{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color:#fff;
-    background-image: url(/src/images/graduate-certificate.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-
-  
+   
 .social-link{
-  display: flex;
+  justify-content: center;
 }
-.social-link a{
+.contact-item a{
   display: inline-block;
   vertical-align: middle;
   background-color: #fff;
@@ -405,8 +412,8 @@ margin-bottom: 50px;
 .social-link a:last-child{
   margin-right: 0;
 }
-.link-twitter{
-  background-image: url('https://png.icons8.com/ios/2x/twitter.png');
+.link-linkedin{
+  background-image: url('https://img.icons8.com/ios/50/000000/linkedin-2.png');
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
