@@ -1,4 +1,14 @@
 /* @import "normalize"; */
+
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Luckiest Guy', cursive; */
+/* font-family: 'Coiny', cursive; */
+/* font-family: 'Cabin Sketch', cursive; */
+/* font-family: 'IM Fell English SC', serif; */
+/* font-family: 'Rammetto One', cursive; */
+/* font-family: 'Walter Turncoat', cursive; */
+
+
 body {
   min-width: 1200px;
   background-color: black;
@@ -12,6 +22,7 @@ body {
   margin: auto;
 }
 .header {
+  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -19,29 +30,27 @@ body {
   justify-content: space-around;
 }
 .name {
+  line-height: 80px;
   font-family: "Indie Flower", cursive;
+  font-size: 35px
 }
-.position {
-  font-family: "Indie Flower", cursive;
-}
+
 .navi {
   display: flex;
-  font-family: "ZCOOL XiaoWei", serif;
+  /* font-family: "ZCOOL XiaoWei", serif; */
   align-items: center;
 }
 .navi a{
   text-decoration: none;
   margin-left: 15px;
   color: #fff;
+font-size: 25px;
+font-family: 'Cabin Sketch', cursive;
 }
+
 .menu-item:hover {
   cursor: pointer;
 }
-/* .tutu{
-  height: 50px;
-  width: 50px;
-  border: #fff 2px solid;
-} */
   
 .main {
   height: 600px;
@@ -53,6 +62,11 @@ body {
   padding: 100px 50px;
   margin-bottom: 100px;
 }
+.main h1{
+font-family: 'Coiny', cursive;
+  color:black ;
+
+}
 .main p{
   font-size: 25px;
   width: 400px;
@@ -60,10 +74,6 @@ body {
   font-family: "Indie Flower", cursive;
   font-size: 25px;
   font-weight: bold;
-
-  /* background-color: black; */
-  /* opacity: 0.5; */
-  /* color: black; */
 }
 
 .career {
@@ -76,16 +86,18 @@ body {
   font-size: 70px;
   color: grey;
   text-transform: uppercase;
-  opacity: 0.6;
   left: 0;
   top: 30px;
+font-family: 'Cabin Sketch', cursive;
 }
 
 .career img {
   height: 500px;
   width: 500px;
 }
-
+.position-item {
+  font-family: 'IM Fell English SC', serif;
+}
 .post {
   display: flex;
   flex-direction: column;
@@ -125,14 +137,11 @@ body {
 .icon-pen{
   background-image: url(/src/images/icon-pen.png);
   background-size: 60%;
-
 }
 
 .icon-tie{
   background-image: url(/src/images/icon-tie.png);
 }
-
-
 
 /* -----------------------------------------------education */
 .education {
@@ -166,25 +175,27 @@ margin-bottom: 50px;
   margin-bottom: 0; 
 }
 .date{
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center; 
   line-height: 100px;
   width: 100px;
   color:white;
   background-color: black;
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
   vertical-align: middle;
+  font-family: 'Indie Flower', cursive;
 }
 .specialty {
+  font-family: 'Walter Turncoat', cursive;
+font-size: 16px;
   display: inline-block;
   width: 600px;
   height: 60px;
   background: black;
   background-color: #fff;
   padding: 20px;
-  font-size: 20px;
   color: black;
 }
 /*---------------------------------------------- skils */
@@ -194,6 +205,13 @@ margin-bottom: 50px;
 }
 
 .caption{
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Luckiest Guy', cursive; */
+font-family: 'Coiny', cursive;
+/* font-family: 'Cabin Sketch', cursive; */
+/* font-family: 'IM Fell English SC', serif; */
+/* font-family: 'Rammettso One', cursive; */
+/* font-family: 'Walter Turncoat', cursive; */
   font-size: 40px;
   color: grey;
   text-transform: uppercase;
@@ -206,7 +224,8 @@ margin-bottom: 50px;
   justify-content: space-between;
 }
 
-.signature{
+.ability{
+  font-family: 'Indie Flower', cursive;
   width: 150px;
   text-align: center;
   font-size: 20px;
@@ -293,34 +312,37 @@ margin-bottom: 50px;
   width:1250px; 
   margin: auto;
   margin-bottom: 100px;
-  /* height: 1200px; */
 }
 
 .fullview img{
   width: 100%;
   height:auto;
-  }
-  .fullview:hover{
-    cursor: pointer;
-  }
-  .preview {
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
+}
+.fullview:hover{
+  cursor: pointer;
+}
+.preview {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  background-size: contain;
+}
+.card{
+  width: 310px;
+  height: 157px;
+  border: 2px solid black;
   }
 
   .btn {
     position: absolute;
     width: 50px;
     height: 150px;
-    border-radius: 90%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-   
   }
   .btn:hover{
     opacity: 1;
@@ -357,7 +379,7 @@ margin-bottom: 50px;
 .contact-item{
   display: flex;
   margin-bottom: 25px;
-  width: 600px;
+  width: 650px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -390,7 +412,8 @@ margin-bottom: 50px;
    background-image: url(/src/images/icon-locality.png);
  }
 
- .item-contact{
+ .contact-details{
+font-family: 'IM Fell English SC', serif;
   font-size: 35px;
   line-height: 60px;
   align-items: center;
@@ -423,7 +446,7 @@ margin-bottom: 50px;
   background-repeat: no-repeat;
   background-position: center;
 }
-.link-google{
+.link-github{
   background-image: url('https://image.flaticon.com/icons/svg/134/134033.svg');
   background-size: 50%;
   background-repeat: no-repeat;

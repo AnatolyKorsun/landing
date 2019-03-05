@@ -150,7 +150,7 @@ function createFullviewImage(dataFullview,lowsrc) {
 };
 
 function createCard(galleryItems) {
-  return `<li><img src=${galleryItems.preview} lowsrc= ${galleryItems.lowsrc} data-fullview=${galleryItems.fullview} alt="${galleryItems.alt}">
+  return `<li><img class="card" src=${galleryItems.preview} lowsrc= ${galleryItems.lowsrc} data-fullview=${galleryItems.fullview} alt="${galleryItems.alt}">
     </li>`;
 };
 
