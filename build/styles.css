@@ -1,0 +1,456 @@
+/* @import "normalize"; */
+
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Luckiest Guy', cursive; */
+/* font-family: 'Coiny', cursive; */
+/* font-family: 'Cabin Sketch', cursive; */
+/* font-family: 'IM Fell English SC', serif; */
+/* font-family: 'Rammetto One', cursive; */
+/* font-family: 'Walter Turncoat', cursive; */
+
+
+body {
+  min-width: 1200px;
+  background-color: black;
+  color: white;
+}
+* {
+  margin: 0;
+}
+body {
+  width: 1200px;
+  margin: auto;
+}
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.name {
+  line-height: 80px;
+  font-family: "Indie Flower", cursive;
+  font-size: 35px
+}
+
+.navi {
+  display: flex;
+  /* font-family: "ZCOOL XiaoWei", serif; */
+  align-items: center;
+}
+.navi a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: #fff;
+font-size: 25px;
+font-family: 'Cabin Sketch', cursive;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+  
+.main {
+  height: 600px;
+  background-image: url(/src/images/adult-2449725_1920.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  padding: 100px 50px;
+  margin-bottom: 100px;
+}
+.main h1{
+font-family: 'Coiny', cursive;
+  color:black ;
+
+}
+.main p{
+  font-size: 25px;
+  width: 400px;
+  color:#000;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.career {
+  position: relative;
+  font-size: 23px;
+  margin-bottom: 100px;
+}
+.title {
+  position: absolute;
+  font-size: 70px;
+  color: grey;
+  text-transform: uppercase;
+  left: 0;
+  top: 30px;
+font-family: 'Cabin Sketch', cursive;
+}
+
+.career img {
+  height: 500px;
+  width: 500px;
+}
+.position-item {
+  font-family: 'IM Fell English SC', serif;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 470px;
+}
+
+.position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.position-item {
+  margin-left: 20px;
+}
+
+.position-icon {
+ vertical-align: middle;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+ .icon-tools{
+  background-image: url(/src/images/icon-tool.png);
+} 
+.icon-helmet{
+  background-image: url(/src/images/icon-helmet.png);
+}
+.icon-pen{
+  background-image: url(/src/images/icon-pen.png);
+  background-size: 60%;
+}
+
+.icon-tie{
+  background-image: url(/src/images/icon-tie.png);
+}
+
+/* -----------------------------------------------education */
+.education {
+  position: relative;
+  background-image: url(/src/images/web-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+  color:black;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 500px;
+}
+.block{
+  background-color: grey;
+  opacity: 0.8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.block h2{
+  font-size: 40px
+}
+.education-stage{
+display: flex; 
+align-items: center;
+margin-bottom: 50px;
+}
+.education-stage:last-child{
+  margin-bottom: 0; 
+}
+.date{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center; 
+  line-height: 100px;
+  width: 100px;
+  color:white;
+  background-color: black;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Indie Flower', cursive;
+}
+.specialty {
+  font-family: 'Walter Turncoat', cursive;
+font-size: 16px;
+  display: inline-block;
+  width: 600px;
+  height: 60px;
+  background: black;
+  background-color: #fff;
+  padding: 20px;
+  color: black;
+}
+/*---------------------------------------------- skils */
+.skils{
+  position: relative;
+  padding: 100px 50px;
+}
+
+.caption{
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Luckiest Guy', cursive; */
+font-family: 'Coiny', cursive;
+/* font-family: 'Cabin Sketch', cursive; */
+/* font-family: 'IM Fell English SC', serif; */
+/* font-family: 'Rammettso One', cursive; */
+/* font-family: 'Walter Turncoat', cursive; */
+  font-size: 40px;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.tehnical-skils, .soft-skils{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ability{
+  font-family: 'Indie Flower', cursive;
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.caption{
+  margin-bottom: 20px;
+}
+.logo{
+  width: 160px;
+  height: 160px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 16px;
+}
+
+.logo-team{
+  background-image: url(/src/images/teamwork.svg);
+}
+.logo-personal{
+  background-image: url(/src/images/achievement.svg);
+}
+.logo-management{
+  background-image: url(/src/images/watch.svg);
+}
+.logo-communication{
+  background-image: url(/src/images/dance.svg);
+} 
+.logo-agile{
+  background-image: url(/src/images/group.svg);
+}
+.logo-experience{
+  background-image: url(/src/images/avatar.svg);
+}
+
+.logo-html{
+  background-image: url(/src/images/html5.svg);
+}
+.logo-css{
+  background-image: url(/src/images/css3.svg);
+}
+.logo-js{
+  background-image: url(/src/images/js.svg);
+}
+.logo-photoshop{
+  background-image: url(/src/images/photoshop.svg);
+}
+.logo-git{
+  background-image: url(/src/images/git-logo.svg);
+}
+.logo-nodejs{
+  background-image: url(/src/images/nodejs.svg);
+}
+.progress {
+  display: flex;
+  width: 150px;
+}
+.empty-star {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-image: url(/src/images/empty-star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.star {
+  background-image: url(/src/images/star.svg);
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ----------------------------------------------portfolio */
+.portfolio {
+  position: relative;
+  width:1250px; 
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.fullview img{
+  width: 100%;
+  height:auto;
+}
+.fullview:hover{
+  cursor: pointer;
+}
+.preview {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  background-size: contain;
+}
+.card{
+  width: 310px;
+  height: 157px;
+  border: 2px solid black;
+  }
+
+  .btn {
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .btn:hover{
+    opacity: 1;
+    width:70px;
+    height: 150px;
+  }
+
+  .btn--prev {
+    left: 0;
+    background-image: url(/src/images/right-arrow.svg);
+   -webkit-transform: rotate(180deg);
+           transform: rotate(180deg); 
+  }
+
+
+  .btn--next{
+    right: 0;
+    background-image: url(/src/images/right-arrow.svg);
+  }
+
+  /* --------------------------------------------contact */
+    
+  .contact{
+  position: relative;
+  background-image: url(/src/images/map.jpg);
+  padding-top: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* widows: 950px;  */
+  /* margin: auto; */
+  height: 400px;
+}
+
+.contact-item{
+  display: flex;
+  margin-bottom: 25px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon{
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+  border-radius: 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-mail{
+  background-image: url(/src/images/icon-email.png);
+ }
+
+ .icon-phone{
+   background-image: url(/src/images/icon-phone.png);
+ }
+
+ .icon-skype{
+   background-image: url(/src/images/icon-skype.png);
+ }
+
+ .icon-locality{
+   background-image: url(/src/images/icon-locality.png);
+ }
+
+ .contact-details{
+font-family: 'IM Fell English SC', serif;
+  font-size: 35px;
+  line-height: 60px;
+  align-items: center;
+}
+   
+.social-link{
+  justify-content: center;
+}
+.contact-item a{
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.social-link a:last-child{
+  margin-right: 0;
+}
+.link-linkedin{
+  background-image: url('https://img.icons8.com/ios/50/000000/linkedin-2.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.link-facebook{
+  background-image: url('https://image.flaticon.com/icons/png/128/160/160154.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.link-github{
+  background-image: url('https://image.flaticon.com/icons/svg/134/134033.svg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
