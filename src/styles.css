@@ -54,7 +54,7 @@ font-family: 'Cabin Sketch', cursive;
   
 .main {
   height: 600px;
-  background-image: url(/src/images/adult-2449725_1920.jpg);
+  background-image: url(images/adult-2449725_1920.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -129,24 +129,24 @@ font-family: 'Cabin Sketch', cursive;
   background-size: 80%;
 }
  .icon-tools{
-  background-image: url(/src/images/icon-tool.png);
+  background-image: url(images/icon-tool.png);
 } 
 .icon-helmet{
-  background-image: url(/src/images/icon-helmet.png);
+  background-image: url(images/icon-helmet.png);
 }
 .icon-pen{
-  background-image: url(/src/images/icon-pen.png);
+  background-image: url(images/icon-pen.png);
   background-size: 60%;
 }
 
 .icon-tie{
-  background-image: url(/src/images/icon-tie.png);
+  background-image: url(images/icon-tie.png);
 }
 
 /* -----------------------------------------------education */
 .education {
   position: relative;
-  background-image: url(/src/images/web-design.jpg);
+  background-image: url(images/web-design.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -246,41 +246,41 @@ font-family: 'Coiny', cursive;
 }
 
 .logo-team{
-  background-image: url(/src/images/teamwork.svg);
+  background-image: url(images/teamwork.svg);
 }
 .logo-personal{
-  background-image: url(/src/images/achievement.svg);
+  background-image: url(images/achievement.svg);
 }
 .logo-management{
-  background-image: url(/src/images/watch.svg);
+  background-image: url(images/watch.svg);
 }
 .logo-communication{
-  background-image: url(/src/images/dance.svg);
+  background-image: url(images/dance.svg);
 } 
 .logo-agile{
-  background-image: url(/src/images/group.svg);
+  background-image: url(images/group.svg);
 }
 .logo-experience{
-  background-image: url(/src/images/avatar.svg);
+  background-image: url(images/avatar.svg);
 }
 
 .logo-html{
-  background-image: url(/src/images/html5.svg);
+  background-image: url(images/html5.svg);
 }
 .logo-css{
-  background-image: url(/src/images/css3.svg);
+  background-image: url(images/css3.svg);
 }
 .logo-js{
-  background-image: url(/src/images/js.svg);
+  background-image: url(images/js.svg);
 }
 .logo-photoshop{
-  background-image: url(/src/images/photoshop.svg);
+  background-image: url(images/photoshop.svg);
 }
 .logo-git{
-  background-image: url(/src/images/git-logo.svg);
+  background-image: url(images/git-logo.svg);
 }
 .logo-nodejs{
-  background-image: url(/src/images/nodejs.svg);
+  background-image: url(images/nodejs.svg);
 }
 .progress {
   display: flex;
@@ -290,14 +290,14 @@ font-family: 'Coiny', cursive;
   width: 30px;
   height: 30px;
   margin: 1px;
-  background-image: url(/src/images/empty-star.svg);
+  background-image: url(images/empty-star.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .star {
-  background-image: url(/src/images/star.svg);
+  background-image: url(images/star.svg);
   width: 30px;
   height: 30px;
   margin: 1px;
@@ -352,21 +352,21 @@ font-family: 'Coiny', cursive;
 
   .btn--prev {
     left: 0;
-    background-image: url(/src/images/right-arrow.svg);
+    background-image: url(images/right-arrow.svg);
    transform: rotate(180deg); 
   }
 
 
   .btn--next{
     right: 0;
-    background-image: url(/src/images/right-arrow.svg);
+    background-image: url(images/right-arrow.svg);
   }
 
   /* --------------------------------------------contact */
     
   .contact{
   position: relative;
-  background-image: url(/src/images/map.jpg);
+  background-image: url(images/map.jpg);
   padding-top: 120px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -397,19 +397,19 @@ font-family: 'Coiny', cursive;
 }
 
 .icon-mail{
-  background-image: url(/src/images/icon-email.png);
+  background-image: url(images/icon-email.png);
  }
 
  .icon-phone{
-   background-image: url(/src/images/icon-phone.png);
+   background-image: url(images/icon-phone.png);
  }
 
  .icon-skype{
-   background-image: url(/src/images/icon-skype.png);
+   background-image: url(images/icon-skype.png);
  }
 
  .icon-locality{
-   background-image: url(/src/images/icon-locality.png);
+   background-image: url(images/icon-locality.png);
  }
 
  .contact-details{

@@ -54,7 +54,7 @@ font-family: 'Cabin Sketch', cursive;
   
 .main {
   height: 600px;
-  background-image: url(/src/images/adult-2449725_1920.jpg);
+  background-image: url(daaef182039d00d036836e2bdf12bfb4.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -129,24 +129,24 @@ font-family: 'Cabin Sketch', cursive;
   background-size: 80%;
 }
  .icon-tools{
-  background-image: url(/src/images/icon-tool.png);
+  background-image: url(8c4f29ab5bdded118f70676c06b057b5.png);
 } 
 .icon-helmet{
-  background-image: url(/src/images/icon-helmet.png);
+  background-image: url(a87abdf8277950aee6908c35a526dbc1.png);
 }
 .icon-pen{
-  background-image: url(/src/images/icon-pen.png);
+  background-image: url(9e339c25202aeec3d422db39790b6b9f.png);
   background-size: 60%;
 }
 
 .icon-tie{
-  background-image: url(/src/images/icon-tie.png);
+  background-image: url(3dd4cf286b7f255a179f3696686e6a0c.png);
 }
 
 /* -----------------------------------------------education */
 .education {
   position: relative;
-  background-image: url(/src/images/web-design.jpg);
+  background-image: url(be08900d8694532ac36a4698ff68fef4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -246,41 +246,41 @@ font-family: 'Coiny', cursive;
 }
 
 .logo-team{
-  background-image: url(/src/images/teamwork.svg);
+  background-image: url(93481a00e5846e7eb6f1bab072060deb.svg);
 }
 .logo-personal{
-  background-image: url(/src/images/achievement.svg);
+  background-image: url(e2de44e8c84a5423443a0a4d845099b1.svg);
 }
 .logo-management{
-  background-image: url(/src/images/watch.svg);
+  background-image: url(e032fa391d8a42bf5ffbb0a15ec6c129.svg);
 }
 .logo-communication{
-  background-image: url(/src/images/dance.svg);
+  background-image: url(4f838c163b20b149f2e52ff453e1b396.svg);
 } 
 .logo-agile{
-  background-image: url(/src/images/group.svg);
+  background-image: url(4b829a90a5d81e2333157c48b64192a6.svg);
 }
 .logo-experience{
-  background-image: url(/src/images/avatar.svg);
+  background-image: url(5ca42ebd8ddbb16f48697a8151826da3.svg);
 }
 
 .logo-html{
-  background-image: url(/src/images/html5.svg);
+  background-image: url(1d716c1dda6092ab0ef7294ab479aef3.svg);
 }
 .logo-css{
-  background-image: url(/src/images/css3.svg);
+  background-image: url(fc62f1c27d189aec79ad76cc865e4e62.svg);
 }
 .logo-js{
-  background-image: url(/src/images/js.svg);
+  background-image: url(e63a04059cc37d80b2366605677d47b7.svg);
 }
 .logo-photoshop{
-  background-image: url(/src/images/photoshop.svg);
+  background-image: url(f13e0462bd17ddb7727fea0c937ba90e.svg);
 }
 .logo-git{
-  background-image: url(/src/images/git-logo.svg);
+  background-image: url(78688833e265bdb444fd814bcc21e990.svg);
 }
 .logo-nodejs{
-  background-image: url(/src/images/nodejs.svg);
+  background-image: url(be2df79601b32143d336bd076429b909.svg);
 }
 .progress {
   display: flex;
@@ -290,14 +290,14 @@ font-family: 'Coiny', cursive;
   width: 30px;
   height: 30px;
   margin: 1px;
-  background-image: url(/src/images/empty-star.svg);
+  background-image: url(25bcd45fd6c272607e1465a5e02a4582.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .star {
-  background-image: url(/src/images/star.svg);
+  background-image: url(12061e115efe86cc5a64219b919e7aec.svg);
   width: 30px;
   height: 30px;
   margin: 1px;
@@ -352,7 +352,7 @@ font-family: 'Coiny', cursive;
 
   .btn--prev {
     left: 0;
-    background-image: url(/src/images/right-arrow.svg);
+    background-image: url(16b216a2c8100fb3abba1129b769f58a.svg);
    -webkit-transform: rotate(180deg);
            transform: rotate(180deg); 
   }
@@ -360,14 +360,14 @@ font-family: 'Coiny', cursive;
 
   .btn--next{
     right: 0;
-    background-image: url(/src/images/right-arrow.svg);
+    background-image: url(16b216a2c8100fb3abba1129b769f58a.svg);
   }
 
   /* --------------------------------------------contact */
     
   .contact{
   position: relative;
-  background-image: url(/src/images/map.jpg);
+  background-image: url(fbfe616b51aab2283046233a6eed4c89.jpg);
   padding-top: 120px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -398,19 +398,19 @@ font-family: 'Coiny', cursive;
 }
 
 .icon-mail{
-  background-image: url(/src/images/icon-email.png);
+  background-image: url(1778ccce2347f3c16747b80c218ee792.png);
  }
 
  .icon-phone{
-   background-image: url(/src/images/icon-phone.png);
+   background-image: url(7fcaf97e550d2ce20cc20551f273499c.png);
  }
 
  .icon-skype{
-   background-image: url(/src/images/icon-skype.png);
+   background-image: url(b1d127113e8fb946ad74540660cf3e18.png);
  }
 
  .icon-locality{
-   background-image: url(/src/images/icon-locality.png);
+   background-image: url(92b185c7fa2223d2b8f1999e06e8a07d.png);
  }
 
  .contact-details{

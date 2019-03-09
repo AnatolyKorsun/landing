@@ -14,7 +14,9 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        use: [
+        'babel-loader',
+      ],
       },
       {
         test: /\.css$/,
@@ -23,6 +25,7 @@ module.exports = {
           'style-loader',
           MiniCssExtractPlugin.loader,
           'css-loader',
+          'resolve-url-loader',
           'postcss-loader',
         ],
       },
@@ -38,9 +41,17 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
         exclude: /node_modules/,
-        use: ['file-loader'],
+        use: [
+          {
+            loader: 'file-loader',
+            // options: {
+            //    name: '[name].[ext]',
+            //    outputPath: '/images/'
+            // }
+          }
+        ],
       },
       {
         test: /\.hbs$/,
@@ -53,7 +64,7 @@ module.exports = {
     new CleanWebpackPlugin('build'),
     new HtmlWebpackPlugin({
       hash: true,
-      template: './public/index.html',
+      template: './src/index.html',
       filename: 'index.html',
     }),
     new MiniCssExtractPlugin({
